@@ -1,0 +1,22 @@
+{
+  "name": "events",
+  "version": "1.0.0",
+  "description": "Agenda de Eventos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index.js"
+  },
+  "keywords": [],
+  "author": "Bernard Silva",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^5.13.0"
+  }
+}

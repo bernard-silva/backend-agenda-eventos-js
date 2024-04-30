@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Agenda de Eventos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Agenda de Eventos</h1>
+        <div class="input-wrapper">
+            <div>
+                <label for="title-input">Título: </label>
+                <input type="text" id="title-input" placeholder="Nome do evento" />
+            </div>
+            <div>
+                <label for="local-input">Localização: </label>
+                <input type="text" id="local-input" placeholder="Localização" />
+            </div>
+            <div>
+                <label for="date-start-input">Data de Início: </label>
+                <input type="datetime-local" id="date-start-input" placeholder="Data/hora de início" />
+            </div>
+            <button type="button" id="register-btn">Cadastrar</button>
+        </div>
+        <div class="event-container"></div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
