@@ -116,6 +116,10 @@ input:focus {
     gap: 16px;
 }
 
+span>i {
+    cursor: pointer;
+}
+
 .trash-btn {
     border: none;
     background-color: transparent;
